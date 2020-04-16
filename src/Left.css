@@ -1,0 +1,103 @@
+
+
+.feeds {
+    display: flex;
+    flex-flow: column wrap;
+    width: 503.1px;
+    margin-right: 10px;
+    border: 1.2px solid;
+    border-color: rgb(232,232,232);
+}
+
+.feed-name {
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.profileZone {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 3px 10px;
+}
+
+.myPic {
+    border-radius: 50%;
+    width: 20px;
+}
+
+.myName {
+    font-size: 11px;
+    margin: 0px 5px;
+}
+
+
+.dotx3 {
+    width: 20px;
+    margin: 0px 10px;
+}
+
+.mainPic {
+    width: 500px;
+}
+
+.pic-below {
+    background-color: white;
+}
+
+.pic-inter {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.inter-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.ThreePic {
+    width: 20px;
+}
+
+.pic-bookmark {
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.bookmark {
+    width: 20px;
+    height: 20px;
+}
+
+.like {
+    padding: 3px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.likeProfile {
+    height: 15px;
+    border-radius: 50%;
+}
+
+.likePpl {
+    margin: 0px 5px;
+    font-size: 10px;
+}
+
+.picDes {
+    padding: 5px 10px 10px;
+    font-size: 10px;
+}
+
+

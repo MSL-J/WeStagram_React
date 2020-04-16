@@ -1,0 +1,64 @@
+.navi {
+    width: 100vw;
+    height: 54px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+
+.nav-content {
+    height: 54px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height :20px;
+}
+
+.firstLogo {
+    padding-right: 15px;
+    border-right: 1.7px solid;
+}
+
+.secondLogo {
+    padding-left: 10px;
+}
+
+.topSearchBox {
+    border: 1.2px solid;
+    border-color: rgb(232,232,232);
+    background-color: rgb(250,250,250);
+    
+}
+
+.topSearchBox::placeholder {
+    text-indent: 63px;
+    background-image: url('https://www.pngfind.com/pngs/m/109-1092764_search-icon-icon-find-svg-hd-png-download.png');
+    background-size:8px;
+    background-repeat: no-repeat;
+    background-position: 50px;
+    
+}
+
+.topSearchBox::placeholder:focus {
+    background-image:none;
+}
+
+
+.side {
+    width: 100px;
+}
+
+.side-img {
+    display: flex;
+    justify-content: space-between;
+}

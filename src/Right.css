@@ -1,0 +1,133 @@
+.main-right {
+    width: 220;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.myProfile {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 220px;
+}
+
+.rightProPic {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.proNameDes {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0px 5px;
+    font-size: 10px;
+}
+
+.proDes {
+    color: rgb(196,196,196);
+}
+
+
+.storyContainer {
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 220px;
+    border: 1.2px solid;
+    border-color: rgb(232,232,232);
+}
+
+.storyTop {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.stories {
+    height: 180px;
+    overflow: auto;
+}
+
+.eachStory {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 5px 5px 0px;
+}
+
+.storyProPic {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.storyNameTime {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 9px;
+    padding: 0px 5px;
+}
+
+
+
+
+
+
+
+.rec {
+    width: 220px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1.2px solid;
+    border-color: rgb(232,232,232);
+}
+
+.recTop {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.eachRec {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 0px;
+}
+
+.eachRecPro {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+.recProPic {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.recNameTime {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 9px;
+    padding: 0px 5px;
+}
+
+.recFollow button {
+    background-color: white;
+    color: rgba(178,223,252,100%);
+    border: none;
+    font-size: 10px;
+}
+
+

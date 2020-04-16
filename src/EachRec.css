@@ -1,0 +1,60 @@
+.rec {
+    width: 220px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1.2px solid;
+    border-color: rgb(232,232,232);
+}
+
+.recTop {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.recs {
+    overflow: auto;
+    height: 110px;
+}
+
+.eachRec {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 0px;
+ 
+}
+
+.eachRecPro {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+.recProPic {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.recNameTime {
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 9px;
+    padding: 0px 5px;
+}
+
+.recFollow button {
+    background-color: white;
+    color: rgba(178,223,252,100%);
+    border: none;
+    font-size: 10px;
+}
+
+
+.recFollow button:hover {
+    color: rgb(0,149,246);
+}

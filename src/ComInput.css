@@ -1,0 +1,32 @@
+.comAdd {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-top: 1px solid;
+    border-color: rgb(232,232,232);
+}
+
+.addComBox {
+    border: none;
+    width:440px;
+    margin-left: 10px;
+}
+
+input::placeholder {
+    color: rgb(232,232,232);
+}
+
+.comPost button {
+    background-color: white;
+    border: none;
+}
+
+.buttonAct, button:hover {
+    color: rgb(0,149,246);
+}
+
+.buttonInact {
+    color: rgba(178,223,252,90%);
+}
